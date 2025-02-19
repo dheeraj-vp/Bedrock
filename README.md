@@ -102,4 +102,4 @@ This setup ensures a **fully serverless, pay-per-use deployment** of **Anthropic
 - **Implementing logging & monitoring** via **AWS CloudWatch**.  
 
 Now your serverless AI-powered question-answering system is live!  
->>>>>>> 60f6c61 (Initial commit)
+
