@@ -58,7 +58,7 @@ This guide outlines the steps to deploy **Anthropic Claude-3** on **AWS Bedrock*
 
 1. **Go to Amazon S3 Console** → Create a new bucket.  
 2. **Bucket Name** : `awsbedrockcalquity` (or choose a custom name, but update it in the Lambda function accordingly).  
-![Alt Text](assets/s3.png)
+
 
 ## Step 5: Lambda Function Code  
 _(Check app.py for Lambda Function, make necessary changes)_  
@@ -91,7 +91,7 @@ _(Check app.py for Lambda Function, make necessary changes)_
 
 - Go to **Amazon S3 Console** → Open `awsbedrockcalquity`  
 - Look for saved QA outputs under **qa-output/**.  
-
+![Alt Text](assets/s3.png)
 ## Conclusion  
 
 This setup ensures a **fully serverless, pay-per-use deployment** of **Anthropic Claude-3** on **AWS Bedrock**. The API Gateway, Lambda, and S3 integration allow for a scalable and cost-efficient solution.  
