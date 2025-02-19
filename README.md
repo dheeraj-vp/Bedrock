@@ -1,6 +1,6 @@
-<<<<<<< HEAD
+
 # Bedrock
-=======
+
 # Deploying Anthropic Claude on AWS Bedrock with Serverless Architecture  
 
 ## Overview  
